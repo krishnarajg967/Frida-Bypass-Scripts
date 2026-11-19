@@ -1,7 +1,7 @@
 /*
  * Android Emulator Detection Bypass - Frida script
  * Usage:
- *   frida -U -l emulator-bypass.js -f com.BugBazaar
+ *   frida -U -l emulator-bypass.js -f <package_name>
  *   (or attach: frida -U -l emulator-bypass.js -n <package_name>)
  *
  * Spoofs the common signals apps use to decide they are running on an
